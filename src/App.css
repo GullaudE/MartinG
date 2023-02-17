@@ -23,6 +23,63 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+  background-color: transparent;
+}
+.card {
+  text-align: center;
+  padding:10px;
+  width: 150px;
+  border-radius: 5px;
+  padding: 1em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 40px;
+  margin-top: 80px;
+}
+
+.div-img{
+  margin: 10px;
+}
+.img {
+  height: 100px;
+  border-radius: 5px;
+  width: auto;
+}
+.div-img-pers {
+  height: 100px;
+  border-radius: 5px;
+  width: auto;
+  padding-top: 100px ;
+}
+
+.img-perso {
+  height: 250px;
+  border-radius: 5px;
+  width: 250px;
+  margin: 50px;
+  position: center;
+}
+.Martin{
+  border-radius: 50%;
+}
+
+.div-perso{
+  background-color: transparent;
+  padding-top: 10px;
+
+}
+.div-texte{
+
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+}
 
 .App-link {
   color: #61dafb;
@@ -36,3 +93,4 @@
     transform: rotate(360deg);
   }
 }
+/*Ewan Gullaud 17/02/2023*/
